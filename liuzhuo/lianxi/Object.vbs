@@ -1,0 +1,14 @@
+Set objBrowser = Description.Create()
+		objBrowser("micclass").Value = "Browser"
+Set objPage = Description.Create()
+		objPage("micclass").Value = "Page"
+Set objName= Description.Create()
+		objName("name").Value = "username"
+Set objPwd= Description.Create()
+		objPwd("name").Value = "userpwd"
+Set objBtn= Description.Create()
+		objBtn("name").Value = "SUBMIT"	
+Set objAdmin = Description.Create()
+		objAdmin("text").Value = "Hi, admin!"
+Set objOut = Description.Create()
+		objOut("text").Value = "Sign Out"

@@ -1,0 +1,14 @@
+Set MyDialog = Description.Create()
+	MyDialog("text").value = "Login"
+Set MyName = Description.Create()
+	MyName("attached text").value = "Agent Name:"
+Set MyPwd = Description.Create()
+	MyPwd("attached text").value = "Password:"
+Set MyBtn = Description.Create()
+	MyBtn("text").value = "OK"
+Set MyWindow = Description.Create()
+	MyWindow("text").value = "Flight Reservation"
+Set MyWindow = Description.Create()
+	MyWindow("regexpwndtitle").value = "Flight Reservation"
+Set MyWinMenu = Description.Create()
+	MyWinMenu("menuobjtype").value = "2"
